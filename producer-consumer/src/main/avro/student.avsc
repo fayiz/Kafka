@@ -1,0 +1,9 @@
+{"namespace": "co.edureka.avro",
+ "type": "record",
+ "name": "Student",
+ "fields": [
+     {"name": "id", "type": "int"},
+     {"name": "name",  "type": ["string", "null"]},
+     {"name": "email_address",  "type": ["string", "null"]}
+ ]
+}
